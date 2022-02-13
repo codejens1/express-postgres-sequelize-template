@@ -1,0 +1,30 @@
+{
+  "name": "express-sequalize-postgres-template",
+  "version": "1.0.0",
+  "description": "Project template for Node.js backend using Express, Sequalize and PostgreSQL database.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Node.js",
+    "Express",
+    "Sequalize",
+    "PostgresSQL"
+  ],
+  "author": "codejens",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "morgan": "^1.10.0",
+    "pg": "^8.7.3",
+    "sequelize": "^6.16.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
